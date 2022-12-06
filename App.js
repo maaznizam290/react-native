@@ -18,7 +18,8 @@ import {
   TouchableOpacity,
   ImageBackground,
 } from 'react-native';
-import Home from './home';
+import Home from './screens/home';
+import Navigation from './navigation/navigation';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <View>
+        <Navigation />
         <Home />
       </View>
     </>
